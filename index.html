@@ -134,28 +134,111 @@
 
           </div>
      </section>
-     
-       <section id="pr">
-
- 
-          <h1>Projects I have worked on</h1>
-
-
-<div class="swiper">
- 
-  <div class="swiper-wrapper">
+     <section id="pr" style="padding: 80px 20px; background: #f9fafb;">
   
-    <div class="swiper-slide"><img src="./sourav.png"loading="lazy" alt="sourav electricals project photo"><p>E-commerce Website for electrical products</p></div>
-    <div class="swiper-slide"><img src="./gautam.jpg"loading="lazy" alt="gautam's website project photo"><p>My Portfolio Website</p></div>
-    <div class="swiper-slide"><img src="./gaurav.jpg"loading="lazy" alt="gaurav electricals project photo"><p>Another E-commerce Website still in progress</p></div>
- 
+  <h1 style="
+      text-align: center;
+      font-size: 42px;
+      margin-bottom: 50px;
+      color: #1A535C;
+      font-weight: 700;">
+    Projects I Have Worked On
+  </h1>
+
+  <div style="
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+      max-width: 1200px;
+      margin: auto;">
+    
+    <!-- Music Web App -->
+    <a href="https://frimum.vercel.app/" target="_blank" style="text-decoration: none; color: inherit;">
+      <div
+        onmouseover="this.style.transform='translateY(-10px)'; this.style.boxShadow='0 30px 50px rgba(0,0,0,0.15)'"
+        onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 15px 30px rgba(0,0,0,0.08)'"
+        style="
+          background: #ffffff;
+          border-radius: 18px;
+          padding: 20px;
+          box-shadow: 0 15px 30px rgba(0,0,0,0.08);
+          transition: transform 0.35s ease, box-shadow 0.35s ease;">
+        
+        <img src="./music-app.png" alt="Music Web App" loading="lazy" style="
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 14px;">
+        
+        <h3 style="margin-top: 18px; font-size: 22px; color: #1A535C;">
+          Music Web App
+        </h3>
+        
+        <p style="font-size: 14px; margin-top: 8px; color: #555;">
+          Full-stack music streaming app built with React and Spring Boot featuring authentication and recommendations.
+        </p>
+      </div>
+    </a>
+
+    <!-- API Gateway Microservices -->
+    <a href="https://gateway-kyxa.onrender.com/" target="_blank" style="text-decoration: none; color: inherit;">
+      <div
+        onmouseover="this.style.transform='translateY(-10px)'; this.style.boxShadow='0 30px 50px rgba(0,0,0,0.15)'"
+        onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 15px 30px rgba(0,0,0,0.08)'"
+        style="
+          background: #ffffff;
+          border-radius: 18px;
+          padding: 20px;
+          box-shadow: 0 15px 30px rgba(0,0,0,0.08);
+          transition: transform 0.35s ease, box-shadow 0.35s ease;">
+        
+        <img src="./api-gateway.png" alt="API Gateway Microservices" loading="lazy" style="
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 14px;">
+        
+        <h3 style="margin-top: 18px; font-size: 22px; color: #1A535C;">
+          API Gateway Microservices
+        </h3>
+        
+        <p style="font-size: 14px; margin-top: 8px; color: #555;">
+          Production-ready API Gateway pattern with authentication, task services, Redis and BullMQ.
+        </p>
+      </div>
+    </a>
+
+    <!-- 2048 Game -->
+    <a href="https://playgautamsingh2048.vercel.app/" target="_blank" style="text-decoration: none; color: inherit;">
+      <div
+        onmouseover="this.style.transform='translateY(-10px)'; this.style.boxShadow='0 30px 50px rgba(0,0,0,0.15)'"
+        onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 15px 30px rgba(0,0,0,0.08)'"
+        style="
+          background: #ffffff;
+          border-radius: 18px;
+          padding: 20px;
+          box-shadow: 0 15px 30px rgba(0,0,0,0.08);
+          transition: transform 0.35s ease, box-shadow 0.35s ease;">
+        
+        <img src="./2048.png" alt="2048 Game" loading="lazy" style="
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 14px;">
+        
+        <h3 style="margin-top: 18px; font-size: 22px; color: #1A535C;">
+          2048 Game
+        </h3>
+        
+        <p style="font-size: 14px; margin-top: 8px; color: #555;">
+          Classic 2048 game built with vanilla JavaScript featuring smooth animations and responsive layout.
+        </p>
+      </div>
+    </a>
+
   </div>
-  
-  <div class="swiper-pagination"></div>
+</section>
 
-
-</div>
-       </section>
 
      <section id="cn">
       
@@ -195,3 +278,4 @@
       <script src="home.js" charset="utf-8"></script>
     </body>
 </html>
+
